@@ -1,31 +1,31 @@
 # Site
-repository: sproogen/resume-theme
+repository: alvionna/resume
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Alvionna Shiergetya Sunaryo
+title: Research Assistant at CoAI Lab (Tsinghua University)
+email: alvionna.sunaryo@gmail.com
+website: www.github.com/alvionna/resume
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  alvionna
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+instagram_username: alvionna_ss
+linkedin_username: alvionna-sunaryo
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -48,9 +48,14 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hello, my name is Alvionna and I'm currently pursuing Master of Science (M.Sc.) in Advanced Computing at Tsinghua University. I am also working as a research assistant at the CoAI (Conversational AI) Laboratory. My research interest lies in Natural Language Processing (NLP) and Artificial Intelligence (AI). 
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  What I am trying to solve: 
+  1. How to make robot/chatbot talks like us, humans? (not awkwardly and not so robotly :D) 
+  2. How to make robot/chatbot understand humans emotionally? 
+  3. How to create a mental health support chatbot that is accessible? 
+
+  I am most skilled in: <mark>Python, NLP, Machine Learning</mark> and <mark>Eating Noodles</mark>
 
 content:
   - title: Projects # Title for the section
