@@ -115,6 +115,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        border: weak
         title: Genshin Impact Search Engine
         link: github.com/alvionna/genshin-search-engine
         # link_text: Project Website
@@ -134,6 +135,7 @@ content:
           
           Integrated the Whoosh library into the backend infrastructure of the Genshin Impact search engine website, improving indexing speed and query performance.
       - layout: top-middle
+        border: weak
         title: TRACOVID (Tracking COVID-19)
         link: github.com/mhc-cs/tracovid
         # link_text: Project Website
@@ -152,6 +154,7 @@ content:
           
           Scraped the school's website using BeautifulSoup to gather COVID-19 news updates, resulting in an accurate and up-to-date display of the number of COVID cases and operating level at the school.
       - layout: top-middle
+        border: weak
         title: Breast Classification Project
         link: github.com/alvionna/breast-cancer-classification
         # link_text: Project Website
@@ -165,29 +168,29 @@ content:
           Conducted comprehensive analysis of 4 machine learning models including Logistic Regression, Multiclass Classification, ANNs, and CNNs to classify breast cancer tumors.
           
           Developed and implemented machine learning algorithms using Tensorflow and Keras libraries, resulting in a 72.35% accuracy rate for the CNN model and a 76.26% accuracy rate for the ANN model.  - title: Education # Title for the section
-    - title: Education
-      layout: list # Type of content section (list/text)
-      content:
-      - layout: left
-        title: Tsinghua University
-        caption: 2022 - present
-        sub_title: M.Sc in Advanced Computing
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+  - title: Education
+    layout: list # Type of content section (list/text)
+    content:
+    - layout: left
+      title: Tsinghua University
+      caption: 2022 - present
+      sub_title: M.Sc in Advanced Computing
+      # quote: >
+      #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+      description: | # this will include new lines to allow paragraphs
+        During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-      - layout: left
-        title: Mount Holyoke College
-        caption: 2018 - 2022
-        sub_title: B.A. in Computer Science and Mathematics (Cum Laude)
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+    - layout: left
+      title: Mount Holyoke College
+      caption: 2018 - 2022
+      sub_title: B.A. in Computer Science and Mathematics (Cum Laude)
+      # quote: >
+      #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+      description: | # this will include new lines to allow paragraphs
+        During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+        I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
   - title: More about me 
     layout: text
     content: | # this will include new lines to allow paragraphs
