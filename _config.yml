@@ -1,6 +1,6 @@
 # Site
 repository: alvionna/resume
-favicon: images/favicon.ico
+favicon: images/favicon.ico #logo in the tab
 
 # Content configuration version
 version: 2
@@ -69,7 +69,7 @@ content:
         sub_title: Research Assistant
         caption: January 2023 - Present
         quote: >
-          Skills: Research, NLP, LLMs, AI, Pytorch, Github, Deep Learning, Machine Learning 
+          Skills: Research, NLP, LLMs, AI, Deep Learning, Machine Learning, Sentiment Analysis, Pytorch, Github
         description: | # this will include new lines to allow paragraphs
            Researched and analyzed current methodologies and best practices in the field of conversational AI, resulting in the identification of key strategies to create an effective and personalized mental health support chatbot using LLMs, like GPT-3.5, LlaMa-2, etc.
       - layout: left     
@@ -82,35 +82,35 @@ content:
         sub_title: Research Assistant
         caption: June 2021 - May 2022
         quote: >
-          Skills: PyTorch, Machine Learning, TensorFlow, Teaching, Python
+          Skills: AI, Research, Deep Learning, Machine Learning, TensorFlow, PyTorch, Github, Python
         description: |
-          Taught students how to utilize ML libraries and frameworks, including PyTorch and Tensorflow, which resulted in an improvement in their ability to develop complex ML models. 
+          - Taught students how to utilize ML libraries and frameworks, including PyTorch and Tensorflow, which resulted in an improvement in their ability to develop complex ML models. 
           
-          Coordinated a weekly drop-in office hour for 18 students to review ML concepts and models, such as Logistic Regression, ANN, and CNN, leading to a 20% increase in student comprehension of ML topics.
+          - Coordinated a weekly drop-in office hour for 18 students to review ML concepts and models, such as Logistic Regression, ANN, and CNN, leading to a 20% increase in student comprehension of ML topics.
           
-          Assessed and graded the homework of the class, consisted of 18 students
+          - Assessed and graded the homework of the class, consisted of 18 students
       - layout: left 
         title: Mount Holyoke College
         link: mtholyoke.edu
         sub_title: Machine Learning Teaching Assistant
         caption: Jan 2021 - May 2022
         quote: >
-          Skills: Artificial Intelligence (AI) · Research Skills, PyTorch, Computer Vision, GitHub, Machine Learning, Python (Programming Language)
+          Skills: AI, Research Skills, PyTorch, Computer Vision, GitHub, Machine Learning, Python (Programming Language)
         description: |
-          Researched and analyzed recent advancements in image reconstruction literature, identifying key gaps and limitations that could be addressed to improve accuracy.
+          - Researched and analyzed recent advancements in image reconstruction literature, identifying key gaps and limitations that could be addressed to improve accuracy.
           
-          Constructed a modified GAN using a combination of Siamese Network and Deep Convolutional Generative Adversarial Network (DCGAN) architecture in Pytorch.
+          - Constructed a modified GAN using a combination of Siamese Network and Deep Convolutional Generative Adversarial Network (DCGAN) architecture in Pytorch.
       - layout: left 
         title: Mount Holyoke College
         link: mtholyoke.edu
         sub_title: Intro to Computer Science Teaching Assistant 
         caption: Jan 2020 - May 2020
         quote: >
-          Data Structures, Teaching, Computer Science, Object-Oriented Programming (OOP)
+          Skills: Data Structures, Teaching, Computer Science, Object-Oriented Programming (OOP), Python
         description: |
-          Instructed a diverse group of students in the fundamentals of Python programming, covering topics such as if-else statements, arrays, dictionaries, and an introduction to Object-Oriented Programming (OOP).
+          - Instructed a diverse group of students in the fundamentals of Python programming, covering topics such as if-else statements, arrays, dictionaries, and an introduction to Object-Oriented Programming (OOP).
          
-          Conducted personalized tutoring sessions with 3 mentees on a weekly basis, resulting in an average increase of 15% in their understanding of complex computer science concepts.
+          - Conducted personalized tutoring sessions with 3 mentees on a weekly basis, resulting in an average increase of 15% in their understanding of complex computer science concepts.
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -127,13 +127,28 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Skills: JavaScript · Information Retrieval · Whoosh · React.js · HTML · Front-end Development, CSS, Flask, Github
+          Skills: JavaScript, Information Retrieval, Whoosh, React.js, HTML, Front-end Development, CSS, Flask, Github
         description: | # this will include new lines to allow paragraphs
-          Implemented advanced search algorithms, including BM25 and TF-IDF ranking systems, to enhance the accuracy and relevance of search results on a search engine website for Genshin Impact.
+          - Implemented advanced search algorithms, including BM25 and TF-IDF ranking systems, to enhance the accuracy and relevance of search results on a search engine website for Genshin Impact.
           
-          Designed and developed a user-friendly frontend interface using React.js, HTML, and CSS for a search engine website dedicated to Genshin Impact game.
+          - Designed and developed a user-friendly frontend interface using React.js, HTML, and CSS for a search engine website dedicated to Genshin Impact game.
           
-          Integrated the Whoosh library into the backend infrastructure of the Genshin Impact search engine website, improving indexing speed and query performance.
+          - Integrated the Whoosh library into the backend infrastructure of the Genshin Impact search engine website, improving indexing speed and query performance.
+      - layout: top-middle
+        border: weak
+        title: Toxic Comment Classification
+        # link: https://ismyuniversityopen.netlify.app/
+        # link_text: IsMyUniversityOpen
+        # additional_links:
+        #   - title:  alvionna/breast-cancer-classification
+        #     icon: fab fa-github
+        #     url: github.com/alvionna/breast-cancer-classification
+        quote: >
+          Skills: NLP, LLM, AI, Deep Learning, Machine Learning, Sentiment Analysis, PyTorch, Python, GitHub
+        description: | # this will include new lines to allow paragraphs
+          - Developed a deep learning model utilizing DistilBERT, CNN, and LSTM architectures to effectively classify toxic comments into 6 distinct categories, resulting in an impressive AUC score of 95.912%.
+          - Conducted extensive experimentation with three different word embeddings (Bag-of-Words, TF-IDF, Word2Vec), allowing for comprehensive evaluation of their effectiveness in classifying toxic comments.
+          - Researched and analyzed state-of-the-art sentiment analysis methods for toxic comment classification, resulting in the identification of an innovative approach that achieved an accuracy rate of 90%.
       - layout: top-middle
         border: weak
         title: TRACOVID (Tracking COVID-19)
@@ -144,15 +159,15 @@ content:
             icon: fab fa-github
             url: github.com/mhc-cs/tracovid
         quote: >
-          Skills: GitHub · Mobile Application Development · Node.js · Flutter
+          Skills: GitHub, Mobile Application Development, Node.js, Flutter, Python
         description: | # this will include new lines to allow paragraphs
-          Developed and implemented a cross-platform mobile application (iOS and Android) in Flutter for
+          - Developed and implemented a cross-platform mobile application (iOS and Android) in Flutter for
           contact tracing of COVID-19 at school and tested by more than 10 students.
           
-          Implemented a seamless integration process utilizing Node.js to connect the structured database
+          - Implemented a seamless integration process utilizing Node.js to connect the structured database
           (MySQL) with the application, resulting in improved user experience and reduced data input errors.
           
-          Scraped the school's website using BeautifulSoup to gather COVID-19 news updates, resulting in an accurate and up-to-date display of the number of COVID cases and operating level at the school.
+          - Scraped the school's website using BeautifulSoup to gather COVID-19 news updates, resulting in an accurate and up-to-date display of the number of COVID cases and operating level at the school.
       - layout: top-middle
         border: weak
         title: Breast Classification Project
@@ -163,11 +178,27 @@ content:
             icon: fab fa-github
             url: github.com/alvionna/breast-cancer-classification
         quote: >
-          Skills: Artificial Intelligence (AI) · Computer Vision · GitHub · Machine Learning · TensorFlow
+          Skills: AI, Computer Vision, Deep Learning, Machine Learning, GitHub, TensorFlow
         description: | # this will include new lines to allow paragraphs
-          Conducted comprehensive analysis of 4 machine learning models including Logistic Regression, Multiclass Classification, ANNs, and CNNs to classify breast cancer tumors.
+          - Conducted comprehensive analysis of 4 machine learning models including Logistic Regression, Multiclass Classification, ANNs, and CNNs to classify breast cancer tumors.
           
-          Developed and implemented machine learning algorithms using Tensorflow and Keras libraries, resulting in a 72.35% accuracy rate for the CNN model and a 76.26% accuracy rate for the ANN model.  - title: Education # Title for the section
+          - Developed and implemented machine learning algorithms using Tensorflow and Keras libraries, resulting in a 72.35% accuracy rate for the CNN model and a 76.26% accuracy rate for the ANN model.  - title: Education # Title for the section
+      - layout: top-middle
+        border: weak
+        title: IsMyUniversityOpen
+        link: https://ismyuniversityopen.netlify.app/
+        # link_text: IsMyUniversityOpen
+        # additional_links:
+        #   - title:  alvionna/breast-cancer-classification
+        #     icon: fab fa-github
+        #     url: github.com/alvionna/breast-cancer-classification
+        quote: >
+          Skills: Website Building, JavaScript, HTML, Front-end Development, Cascading Style Sheets (CSS), GitHub, Bootstrap
+        description: | # this will include new lines to allow paragraphs
+          - Developed and implemented a user-friendly website using HTML, CSS, and JavaScript to inform
+          students about the various ways US universities adapted their curriculum during the COVID-19.
+          
+          - Implemented and integrated the MapQuest API in the website to display an interactive map of over 70 universities' locations across the nation.
   - title: Education
     layout: list # Type of content section (list/text)
     content:
@@ -178,9 +209,11 @@ content:
       # quote: >
       #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
       description: | # this will include new lines to allow paragraphs
-        During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-        I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+        GPA: 3.6/4.0
+        
+        Activities and societies: 
+        
+        - Research and Development Member of Tsinghua Artificial Intelligence Association of International Students (TAIS) 
     - layout: left
       title: Mount Holyoke College
       caption: 2018 - 2022
@@ -188,9 +221,15 @@ content:
       # quote: >
       #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
       description: | # this will include new lines to allow paragraphs
-        During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        GPA: 3.66/4.0
 
-        I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+        Graduated with *Cum Laude*
+
+        Activities and societies: 
+
+        - *Chair* of Social Media and Marketing of Computer Science Society (2021-2022)
+        - Member of Chorale (Choir Group)
+        - Member of Logistics Team of HackHolyoke 2021
   - title: More about me 
     layout: text
     content: | # this will include new lines to allow paragraphs
