@@ -188,10 +188,10 @@ content:
         title: TRACOVID (Tracking COVID-19)
         # link: https://github.com/mhc-cs/tracovid
         # link_text: Project Website
-        additional_links:
-          - title: mhc-cs/tracovid
-            icon: fab fa-github
-            url: github.com/mhc-cs/tracovid
+        # additional_links:
+        #   - title: mhc-cs/tracovid
+        #     icon: fab fa-github
+        #     url: github.com/mhc-cs/tracovid
         quote: >
           Skills: GitHub, Mobile Application Development, Node.js, Flutter, Python
         description: | # this will include new lines to allow paragraphs
