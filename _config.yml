@@ -17,7 +17,7 @@ darkmode: false
 
 # Social links
 # twitter_username: facespics
-github_username:  alvionna
+github_username: alvionna
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -71,12 +71,12 @@ content:
         quote: >
           Skills: Research, NLP, LLMs, AI, Deep Learning, Machine Learning, Sentiment Analysis, Pytorch, Github
         description: | # this will include new lines to allow paragraphs
-           - Researched and analyzed current methodologies and best practices in the field of conversational AI, resulting in the identification of key strategies to create an effective and personalized mental health support chatbot using LLMs, like GPT-3.5, LlaMa-2, etc.
-      - layout: left     
+          - Researched and analyzed current methodologies and best practices in the field of conversational AI, resulting in the identification of key strategies to create an effective and personalized mental health support chatbot using LLMs, like GPT-3.5, LlaMa-2, etc.
+      - layout: left
         title: Mount Holyoke College
         link: mtholyoke.edu
         additional_links:
-          - title:  IMeRoLab Instagram
+          - title: IMeRoLab Instagram
             icon: fab fa-instagram
             url: https://www.instagram.com/theimerolab/
         sub_title: Research Assistant
@@ -85,11 +85,11 @@ content:
           Skills: AI, Research, Deep Learning, Machine Learning, TensorFlow, PyTorch, Github, Python
         description: |
           - Taught students how to utilize ML libraries and frameworks, including PyTorch and Tensorflow, which resulted in an improvement in their ability to develop complex ML models. 
-          
+
           - Coordinated a weekly drop-in office hour for 18 students to review ML concepts and models, such as Logistic Regression, ANN, and CNN, leading to a 20% increase in student comprehension of ML topics.
-          
+
           - Assessed and graded the homework of the class, consisted of 18 students
-      - layout: left 
+      - layout: left
         title: Mount Holyoke College
         link: mtholyoke.edu
         sub_title: Machine Learning Teaching Assistant
@@ -98,18 +98,18 @@ content:
           Skills: AI, Research Skills, PyTorch, Computer Vision, GitHub, Machine Learning, Python (Programming Language)
         description: |
           - Researched and analyzed recent advancements in image reconstruction literature, identifying key gaps and limitations that could be addressed to improve accuracy.
-          
+
           - Constructed a modified GAN using a combination of Siamese Network and Deep Convolutional Generative Adversarial Network (DCGAN) architecture in Pytorch.
-      - layout: left 
+      - layout: left
         title: Mount Holyoke College
         link: mtholyoke.edu
-        sub_title: Intro to Computer Science Teaching Assistant 
+        sub_title: Intro to Computer Science Teaching Assistant
         caption: Jan 2020 - May 2020
         quote: >
           Skills: Data Structures, Teaching, Computer Science, Object-Oriented Programming (OOP), Python
         description: |
           - Instructed a diverse group of students in the fundamentals of Python programming, covering topics such as if-else statements, arrays, dictionaries, and an introduction to Object-Oriented Programming (OOP).
-         
+
           - Conducted personalized tutoring sessions with 3 mentees on a weekly basis, resulting in an average increase of 15% in their understanding of complex computer science concepts.
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -120,7 +120,7 @@ content:
         link: https://github.com/alvionna/stock-market-prediction
         # link_text: Project Website
         additional_links:
-          - title:  alvionna/stock-market-prediction
+          - title: alvionna/stock-market-prediction
             icon: fab fa-github
             url: https://github.com/alvionna/stock-market-prediction
         quote: >
@@ -130,32 +130,32 @@ content:
 
           - Analyzed 10+ charts created using 2 data visualization tools, matplotlib and seaborn, and did a technical analysis to gain a deeper understanding of key trends of the various stocks.
       - layout: top-middle
-          border: weak
-          title: Sentiment Analyis - Twitter Sentiment Classification 
-          link: https://github.com/alvionna/twitter-sentiment-classification
-          # link_text: Project Website
-          additional_links:
-            - title:  alvionna/twitter-sentiment-classification
-              icon: fab fa-github
-              url: https://github.com/alvionna/twitter-sentiment-classification
-            # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            #   icon: fab fa-github
-            #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-          quote: >
-            Skills: NLP, Sentiment Analysis, Machine Learning, Deep Learning, Python Github
-          description: | # this will include new lines to allow paragraphs
-            - Constructed 3 Machine Learning Models (KNN, Random Forest, SVM) using scikit-learn to successfully classify 10,000+ tweets sentiment into 6 categories (happy, disgust, sad, surprise, angry, and fear).
-            
-            - Implemented GridSearchCV to boost Random Forest accuracy from 43.01% to 58.82% and elevated SVM accuracy from 78.94% to 89.77%.
-            
-            - Streamlined data preprocessing for 10,000+ tweets by removing stop words and lemmatizing words.
+        border: weak
+        title: Sentiment Analyis - Twitter Sentiment Classification
+        link: https://github.com/alvionna/twitter-sentiment-classification
+        # link_text: Project Website
+        additional_links:
+          - title: alvionna/twitter-sentiment-classification
+            icon: fab fa-github
+            url: https://github.com/alvionna/twitter-sentiment-classification
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Skills: NLP, Sentiment Analysis, Machine Learning, Deep Learning, Python Github
+        description: | # this will include new lines to allow paragraphs
+          - Constructed 3 Machine Learning Models (KNN, Random Forest, SVM) using scikit-learn to successfully classify 10,000+ tweets sentiment into 6 categories (happy, disgust, sad, surprise, angry, and fear).
+
+          - Implemented GridSearchCV to boost Random Forest accuracy from 43.01% to 58.82% and elevated SVM accuracy from 78.94% to 89.77%.
+
+          - Streamlined data preprocessing for 10,000+ tweets by removing stop words and lemmatizing words.
       - layout: top-middle
         border: weak
         title: Genshin Impact Search Engine
         link: https://github.com/alvionna/genshin-search-engine
         # link_text: Project Website
         additional_links:
-          - title:  alvionna/genshin-search-engine
+          - title: alvionna/genshin-search-engine
             icon: fab fa-github
             url: https://github.com/alvionna/genshin-search-engine
         quote: >
@@ -164,7 +164,7 @@ content:
           - Implemented advanced search algorithms, including BM25 and TF-IDF ranking systems, using the Whoosh library to enhance the accuracy and relevance of search results on the website.
 
           - Programmed a user-friendly frontend interface using React.js, HTML, and CSS for the website.
-          
+
           - Integrated the backend and frontend infrastructure of the search engine website with Flask
       - layout: top-middle
         border: weak
@@ -179,9 +179,9 @@ content:
           Skills: NLP, LLM, AI, Deep Learning, Machine Learning, Sentiment Analysis, PyTorch, Python, GitHub
         description: | # this will include new lines to allow paragraphs
           - Developed a deep learning model utilizing DistilBERT, CNN, and LSTM to effectively classify 100,000+ toxic comments into 6 categories, resulting in an AUC score of 95.912%.
-          
+
           - Conducted experimentation with 3 different word embeddings.
-          
+
           - Tested 5+ state-of-the-art ML algorithms that resulted in the implementation of an innovative approach that achieved an accuracy rate of 90%.
       - layout: top-middle
         border: weak
@@ -196,9 +196,9 @@ content:
           Skills: GitHub, Mobile Application Development, Node.js, Flutter, Python
         description: | # this will include new lines to allow paragraphs
           - Developed a cross-platform mobile application (iOS and Android) in Flutter for contact tracing of COVID- 19 at school and tested by more than 10 students.
-          
+
           - Programmed a web scraper using BeautifulSoup to gather real-time COVID-19 news updates from the school's website to accurately display the number of COVID cases and operating level at the school.
-          
+
           - Implemented a seamless integration process utilizing Node.js to connect the structured database (MySQL) with the application, resulting in improved user experience and reduced data input errors.
       - layout: top-middle
         border: weak
@@ -206,15 +206,15 @@ content:
         link: https://github.com/alvionna/breast-cancer-classification
         # link_text: Project Website
         additional_links:
-          - title:  alvionna/breast-cancer-classification
+          - title: alvionna/breast-cancer-classification
             icon: fab fa-github
             url: github.com/alvionna/breast-cancer-classification
         quote: >
           Skills: AI, Computer Vision, Deep Learning, Machine Learning, GitHub, TensorFlow
         description: | # this will include new lines to allow paragraphs
           - Conducted comprehensive analysis of 4 machine learning models including Logistic Regression, Multiclass Classification, ANNs, and CNNs to classify breast cancer tumors.
-          
-          - Developed and implemented machine learning algorithms using Tensorflow and Keras libraries, resulting in a 72.35% accuracy rate for the CNN model and a 76.26% accuracy rate for the ANN model.  
+
+          - Developed and implemented machine learning algorithms using Tensorflow and Keras libraries, resulting in a 72.35% accuracy rate for the CNN model and a 76.26% accuracy rate for the ANN model.
       - layout: top-middle
         border: weak
         title: IsMyUniversityOpen
@@ -230,40 +230,40 @@ content:
           - Developed and implemented a user-friendly website using HTML, CSS, and JavaScript to inform students about the various ways US universities adapted their curriculum during the COVID-19.
 
           - Collaborated seamlessly with a remote team of 3 international developers across different time zones, resulting in a 20% increase in productivity and meeting all project deadlines.
-          
+
           - Implemented and integrated the MapQuest API in the website to display an interactive map of over 70 universities' locations across the nation.
   - title: Education
     layout: list # Type of content section (list/text)
     content:
-    - layout: left
-      title: Tsinghua University
-      caption: 2022 - present
-      sub_title: M.Sc in Advanced Computing
-      # quote: >
-      #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-      description: | # this will include new lines to allow paragraphs
-        Cumulative GPA: 3.62/4.0
+      - layout: left
+        title: Tsinghua University
+        caption: 2022 - present
+        sub_title: M.Sc in Advanced Computing
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          Cumulative GPA: 3.62/4.0
 
-        Activities and societies: 
-        
-        - Research and Development Member of Tsinghua Artificial Intelligence Association of International Students (TAIS) 
-    - layout: left
-      title: Mount Holyoke College
-      caption: 2018 - 2022
-      sub_title: B.A. in Computer Science and Mathematics (Cum Laude)
-      # quote: >
-      #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-      description: | # this will include new lines to allow paragraphs
-        Cumulative GPA: 3.66/4.0
+          Activities and societies: 
 
-        Graduated with *Cum Laude*
+          - Research and Development Member of Tsinghua Artificial Intelligence Association of International Students (TAIS)
+      - layout: left
+        title: Mount Holyoke College
+        caption: 2018 - 2022
+        sub_title: B.A. in Computer Science and Mathematics (Cum Laude)
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          Cumulative GPA: 3.66/4.0
 
-        Activities and societies: 
+          Graduated with *Cum Laude*
 
-        - *Chair* of Social Media and Marketing of Computer Science Society (2021-2022)
-        - Member of Chorale (Choir Group)
-        - Member of Logistics Team of HackHolyoke 2021
-  - title: More about me 
+          Activities and societies: 
+
+          - *Chair* of Social Media and Marketing of Computer Science Society (2021-2022)
+          - Member of Chorale (Choir Group)
+          - Member of Logistics Team of HackHolyoke 2021
+  - title: More about me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in AI and frontend, some of my other interests and hobbies are:
@@ -284,4 +284,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
